@@ -30,7 +30,6 @@ notesContainer.addEventListener("click", function(e){
         notes.forEach(nt => {
             nt.onkeyup = function(){
                 updateStorage();
-
             }
         })
     }
